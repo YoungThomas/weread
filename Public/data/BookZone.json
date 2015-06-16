@@ -1,0 +1,29 @@
+[
+	{
+		"id": 00000001,
+		"userid": 12345678,
+		"parentid": 11111111,
+		"bookid": 11111111,
+		"type": 1,
+		"content": "zheshishenmewuliao de dongdong pinglun",
+		"prase": "zhoushaoxiong|"
+	},
+	{
+		"id": 00000002,
+		"userid": 12345679,
+		"parentid": 11111112,
+		"bookid": 11111112,
+		"type": 2,
+		"content": "zheshishenmewuliao de dongdong biji",
+		"prase": "zouyuhao|"
+	},
+	{
+		"id": 00000003,
+		"userid": 12345680,
+		"parentid": 11111113,
+		"bookid": 11111113,
+		"type": 1,
+		"content": "zheshishenmewuliao de dongdong pinglu a a ",
+		"prase": "zouyuhao|yangpeng|"
+	}
+]

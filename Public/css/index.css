@@ -1,0 +1,109 @@
+a { text-decoration: none;}
+div, p, img, a {margin: 0; padding: 0;}
+
+.ui-page {
+	-webkit-backface-visibility: hidden;
+}
+
+#book .content {
+	/*position: relative;*/
+}
+
+.morenav {
+	display: none;
+}
+
+.bookInfo {
+	font-size: 0;
+}
+
+.bookInfo img {
+	display: inline-block;
+	vertical-align: middle;
+	width: 40%;
+	height: 100px;
+}
+
+.bookInfo p {
+	display: inline-block;
+	vertical-align: middle;
+	width: 58%;
+	height: 100px;
+	font-size: 10px;
+	padding-left: 2px;
+}
+
+.bookZan {
+	display: inline-block;
+	width: 200px;
+	position: relative;
+	left: 50%;
+}
+
+.heart {
+	display: inline-block;
+	width: 50px;
+	height: 45px;
+	cursor: pointer;
+}
+
+.heart:before,.heart:after{
+	width: 25px;
+	height: 40px;
+	left: 25px;
+	top: 0;
+	background-color: #022;
+	position: absolute;
+	content: "";
+	-moz-border-radius:50px 50px 0 0;
+	border-radius: 50px 50px 0 0;
+	-webkit-transform:rotate(-45deg);
+	-ms-transform:rotate(-45deg);
+	-moz-transform:rotate(-45deg);
+	-o-transform:rotate(-45deg);
+	transform:rotate(-45deg);
+	-webkit-transform-origin:0 100%;
+	-ms-transform-origin:0 100%;
+	-moz-transform-origin:0 100%;
+	-o-transform-origin:0 100%;
+	tansform-origin:0 100%;
+}
+
+.heart:after{
+	left: 0;
+	-webkit-transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+	-o-transform:rotate(45deg);
+	transform:rotate(45deg);
+	-webkit-transform-origin:100% 100%;
+	-ms-transform-origin:100% 100%;
+	-moz-transform-origin:100% 100%;
+	-o-transform-origin:100% 100%;
+	transform-origin:100% 100%;
+}
+
+.heart.active:before,.heart.active:after {
+	background-color: red;
+}
+
+.comment {
+	border: 1px solid #aaa;
+	width: 98%;
+	height: 100px;
+}
+
+
+
+/*我的笔记*/
+#addNoteForm {
+	display: none;
+}
+
+#addNoteForm.active {
+	display: block;
+}
+
+.clear {
+	clear: both;
+}

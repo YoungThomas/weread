@@ -1,0 +1,29 @@
+[
+ {
+  "id": 11111111,
+  "title": "bianyiyuanli",
+  "isbn": "1234567890123",
+  "publish": "zhongguopublish",
+  "author": "fengjianling",
+  "cover": "img/1.jpg",
+  "content": "zheshi ge shenme gui"
+ },
+ {
+  "id": 11111112,
+  "title": "caozuoxitong",
+  "isbn": "1234567890124",
+  "publish": "meiguopublish",
+  "author": "liuning",
+  "cover": "img/2.jpg",
+  "content": "zheshi wuliao de dongxi"
+ },
+ {
+  "id": 11111113,
+  "title": "shujukuyuanli",
+  "isbn": "1234567890124",
+  "publish": "hanguopublish",
+  "author": "fengdada",
+  "cover": "img/3.jpg",
+  "content": "zheshi ge shabi de dongxi"
+ }
+]
